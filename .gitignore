@@ -1,0 +1,41 @@
+# Node modules & lockfiles
+node_modules
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build output
+dist
+build
+coverage/
+
+# Environment files & secrets
+.env
+.env.*.local
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Git
+.git
+
+# Docker files themselves
+docker-compose*.yaml
+
+# Misc
+coverage/
+reports/
+*.pid
