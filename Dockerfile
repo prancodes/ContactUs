@@ -1,6 +1,10 @@
 	# Official, stable, compatible
 FROM node:18-alpine
 
+    # Add metadata labels for GitHub repository and description
+LABEL org.opencontainers.image.source="https://github.com/prancodes/ContactUs"
+LABEL org.opencontainers.image.description="Dockerized Node.js Contact Form backend with MongoDB storage"
+
     # Build‑time argument for NODE_ENV (defaults to production)
 ARG NODE_ENV=Production
     # Persist that value into the image
